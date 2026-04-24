@@ -14,7 +14,8 @@ jobs:
     runs-on: ${{ matrix.config.os }}
 
     steps:
-      - checkout:
+      - uses: actions/checkout@v4
+        with:
           submodules: recursive
 
       - name: Build Mod
