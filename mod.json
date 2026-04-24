@@ -1,0 +1,18 @@
+{
+    "geode": "v4.0.0",
+    "gd": {
+        "win": "2.207"
+    },
+    "id": "y0unglets.ai_bot",
+    "name": "AI Jump Bot",
+    "version": "v1.0.0",
+    "developer": "Y0ungLets",
+    "description": "Auto-jump bot for Geometry Dash using trajectory analysis.",
+    "dependencies": [
+        {
+            "id": "geode.node-ids",
+            "version": ">=v1.23.3",
+            "importance": "required"
+        }
+    ]
+}
